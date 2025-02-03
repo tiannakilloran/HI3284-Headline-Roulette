@@ -5,10 +5,10 @@ $(function(){
     // You must supply a Trove API key
     var troveAPIKey = '98c8nnqpd676b2qr';
     // Either provide full API query here or include options below
-    var apiQuery = 'townsville flood monsoon ingham inundated';
+    var apiQuery = 'townsville flood';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = '';
+    var keywords = 'all';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'any'
     // Limit to a particular year
@@ -16,12 +16,12 @@ $(function(){
     // attended my talk to ACT teacher librarians asked if it was possible to
     // have a version that always gave a particular year as an answer. I think it
     // was for a treasure hunt type thing.
-    var year = '';
+    var year = 'any';
     // Newspaper id numbers -- separate multiple values with spaces, eg:
     // var titles = '840 35';
-    var titles = '';
+    var titles = '97';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
+    var byline = 'Created by Tianna Killoran for HI3284.'
     // var byline = '';
     // Add a tagline
     var tagline = 'How well do you know your flood history?';
